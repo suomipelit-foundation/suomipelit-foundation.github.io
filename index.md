@@ -4,12 +4,3 @@
 
 layout: home
 ---
-
-I guess this is the index
-{% for game in site.games %}
-  <h2>{{ game.name }}</h2>
-  <p>Year: {{ game.year }}</p>
-  <p>Genre: {{ game.genre }}</p>
-  <p>Language: {{ game.language }}</p>
-  <p>Download: {{ game.asset_id }}.zip</p>
-{% endfor %}
